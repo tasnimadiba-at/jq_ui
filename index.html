@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript & Jquery</title>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+    <!-- accordtion -->
+  <div class="container">
+    <h2>Accordion</h2>
+     <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+      </div>
+  </div>
+  <!-- autocomplete -->
+  <div class="container">
+    <div>
+      <h2>Autocomplete</h2>
+      <p>Language: <input type="text" id="tags"></p>
+    </div>
+  </div>
+  <!-- datepicker -->
+  <div class="container">
+    <h2>Datepicker</h2>
+      <p>Date: <input type="text" placeholder="Enter the date" id="date"></p>
+  </div>
+  <!-- tooltip -->
+  <div class="container">
+    <h2>Tooltip</h2>
+    <p>Name: <input type="text" placeholder="Enter your name" title="Enter Name" id="tool"></p>
+  </div>
+  <!-- tabs -->
+  <div class="container">
+    <h2>Tabs</h2>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tab1">Home</a></li>
+        <li><a href="#tab2">About</a></li>
+        <li><a href="#tab3">Contact</a></li>
+      </ul>
+      <div id="tab1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mauris eget magna euismod dapibus a nec lectus. Nam lacinia vel metus vitae lobortis. Nam erat mauris, facilisis eget nulla sit amet, pulvinar sollicitudin risus. Vivamus condimentum semper enim eu scelerisque.</p>
+      </div>
+      <div id="tab2">
+        <p>Morbi molestie rhoncus est. Praesent vestibulum mi vitae nibh congue, nec facilisis quam ullamcorper. Vestibulum a finibus velit. Donec a cursus nisl, at gravida tortor. Cras volutpat mauris nibh, nec cursus nibh congue sed. Vivamus eget congue dui.</p>
+      </div>
+      <div id="tab3">
+        <p>Donec lectus ante, porta rutrum magna quis, hendrerit commodo mauris. Curabitur ipsum enim, ullamcorper ac mauris id, vulputate consectetur lacus. Cras id tempor metus, et sollicitudin sapien. Suspendisse tempor neque quis consectetur finibus.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Color Animation -->
+  <div class="container">
+    <h2>Color Animation</h2>
+    <div class="anim">
+      <div id="effect">
+        <h3>Animation</h3>
+        <p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.</p>
+      </div>
+    </div>
+    <button id="button">Toggle Effect</button>
+  </div>
+  <!-- draggable -->
+  <div class="container">
+    <div class="Draggable">
+      <h2>Draggable</h2>
+      <div id="draggable">
+        <p>Drag me around</p>
+      </div>
+    </div>
+  </div>  
+
+  <!-- droppable -->
+  <div class="container">
+    <h2>Droppable</h2>
+    <div id="drag">
+      <p>Drag me to my target</p>
+    </div>
+ 
+    <div id="droppable">
+      <p>Drop here</p>
+    </div>
+  </div>
+
+  <!-- sortable -->
+  <div class="container">
+    <h2>Sortable</h2>
+    <ol id="sortable">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ol>
+  </div>
+
+  <!-- sortable -->
+  <div class="container">
+    <h2>Selectable</h2>
+    <ul id="selectable">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </div>
+
+  <!-- AddClass RemoveClass & ToggleClass -->
+  <div class="container">
+    <h2>AddClass RemoveClass & ToggleClass</h2>
+    <div id="box">
+      <h3>Text Box</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mauris eget magna euismod dapibus a nec lectus. Nam lacinia vel metus vitae lobortis.</p>
+    </div>
+    <br>
+    <button type="button" id="addbutton">Add Class</button>
+    <button type="button" id="removebutton">Remove Class</button>
+    <button type="button" id="togglebutton">Toggle Class</button>
+  </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

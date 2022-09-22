@@ -1,0 +1,70 @@
+css
+html
+
+media quiry or braking point
+
+css use kore website sajano hoy
+kintu media quiry or breaking point diye device screen onupate content_gulaok sajano hoy
+
+
+col/extra small - 320 - 575
+samll           - 576 - 767
+md              - 768 - 991
+lg              - 992 - 1199
+xl              - 1200 - 1399
+xxl             - 1400 - 
+
+
+
+
+///jQuery template///
+
+$(document).ready(function(){
+	
+
+
+});
+
+
+///jQuery syntex///
+
+$(selector).event(effect)
+
+selector typrs:
+class
+id
+tag/element
+
+
+///jQuery koyta jaygay likha jay///
+ 
+ jQuery 4 ta jaygay likha jay:-
+
+ 1. script js {eta_e best}(bt mone rakhte hbe jquery_er script file ta js er ekdm upore thkte hbe)
+
+ 2. index.html file a script er vitor a code likhen
+
+3. content er modhe script diye code likha jay. kintu tokhn script er src ta head er upor a diye aste hbe{eta good practice na}
+
+4. head er modhe script diye liha jay{eta good practice na}
+
+
+///error///
+
+- selector a vul hole{ex: spelling mistake}
+- jquery code er spelling mistake{ex:redy}
+- event a vul korle{same spelling mistake}
+
+///practice///
+
+js and jquery selector, event, function, operator etc likhe practice korte hbe
+
+
+///jq ui///
+
+file integration-
+    -css
+    -js
+html  - markup
+css - 
+jq - activation

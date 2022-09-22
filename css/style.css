@@ -1,0 +1,101 @@
+h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.anim { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+#button { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+#effect { 
+	width: 240px; 
+	height: 170px; 
+	padding: 0.4em; 
+	position: relative; 
+	background: #fff; 
+}
+#effect h3 { 
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center; 
+}
+
+/*draggable*/
+
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em;
+	background-color: lime; 
+}
+
+
+#drag { 
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	margin: 10px 10px 10px 0; 
+	background-color: skyblue;
+}
+  #droppable { 
+  	width: 150px; 
+  	height: 150px; 
+  	padding: 0.5em; 
+  	margin: 10px 10px 10px 0;  
+  	color: black;
+  	background-color: blueviolet;
+  }
+
+  /*sortable*/
+  #sortable { 
+  	list-style: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #sortable li { 
+  	border: 1px solid black;
+  	padding: 10px;
+  	width: 300px;
+  }
+  #selectable .ui-selecting { 
+  	background: #FECA40; 
+  }
+  #selectable .ui-selected { 
+  	background: #F39814; 
+  	color: white; 
+  }
+
+  #selectable { 
+  	list-style: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; 
+  	
+  }
+  #selectable li { 
+  	border: 1px solid black;
+  	padding: 10px;
+  	width: 300px;
+  	
+  }
+
+
+
+  /*AddClass RemoveClass & ToggleClass*/
+  #box{
+  	padding: 20px;
+  	border: 1px solid black;
+  	height:200px;
+  	width: 300px;
+  }
+  
+  .first{
+  	background: pink;
+  }
+  
